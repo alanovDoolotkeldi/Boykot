@@ -1,0 +1,23 @@
+.used-texts{
+    width: 540px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.used-texts>h1{
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 5px 5px 20px white;
+    font-family:'Ubuntu', sans-serif;
+    color: white;
+}
+.used-texts>p{
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: bold;
+}

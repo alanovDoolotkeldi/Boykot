@@ -1,0 +1,29 @@
+.form{
+    padding-left: 16px;
+}
+.form>input{
+    width: 220px;
+    height: 35.7px;
+    font-size: 15px;
+    border: solid 2px white;
+    background-color: #5e4c34;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    font-family:'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.form>input::placeholder {
+    font-size: 15px; /* Change this to your desired font size */
+    color: white; /* Change this to your desired color */
+    font-family:'Ubuntu', sans-serif;
+}
+.form>input:hover{
+    background-color: white;
+    color: #5e4c34;
+}
+.form>input:hover::placeholder{
+    color: #5e4c34;
+    opacity: 0.6;
+}
