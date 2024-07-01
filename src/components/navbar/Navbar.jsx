@@ -1,12 +1,16 @@
 import React from 'react'
+import Text from '../text/Text'
+import Translator from '../translator/Translator'
 
 function Navbar() {
   return (
-    <div>
-      <div className="container">
-        
+    <header>
+      <div className="container header-container">
+        <Text/>
+        <Translator/>
+    
       </div>
-    </div>
+    </header>
   )
 }
 
