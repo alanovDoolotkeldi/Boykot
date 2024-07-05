@@ -18,13 +18,13 @@
 }
 @media screen and (max-width: 426px) {
   .header-container {
-    width: 401.6px;
+    width: 375px;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 376px) {
   .header-container {
-    width: 351.5px;
+    width: 320.5px;
     max-width: 100%;
   }
 }

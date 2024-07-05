@@ -15,6 +15,7 @@
     width: 696px;
     max-width: 100%;
   }
+  
   .block {
   }
   .block-info {
@@ -41,13 +42,15 @@
 }
 @media screen and (max-width: 426px) {
   .item-container {
-    width: 401.6px;
+    width: 375px;
     max-width: 100%;
   }
   .blocks {
-    min-width: 401px;
+    min-width: 375px;
     max-width: 1200px;
     overflow-x: scroll;
+    overflow: scroll;
+    max-height: 400px;
   }
   .block {
     width: 510px;
@@ -117,7 +120,6 @@
   .item-container {
     width: 351.5px;
     max-width: 100%;
-    background-color: red;
   }
   .blocks {
     min-width: 351.5px;

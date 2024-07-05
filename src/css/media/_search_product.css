@@ -22,7 +22,7 @@
 }
 @media screen and (max-width:426px) {
     .product-container{
-        width: 401.6px;
+        width: 375px;
         max-width: 100%;
     
     }
@@ -30,7 +30,7 @@
 }
 @media screen and (max-width:376px) {
     .product-container{
-        width: 351.2px;
+        width: 320px;
         max-width: 100%;
     
     }

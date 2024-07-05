@@ -3,6 +3,9 @@
     width: 936px;
     max-width: 100%;
     margin: 0 auto !important;
+    height: auto;
+    
+    padding: 16px;
   }
 }
 @media screen and (max-width: 993px) {
@@ -24,13 +27,13 @@
 }
 @media screen and (max-width: 426px) {
   .footer-container {
-    width: 401.6px;
+    width: 375px;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 376px) {
   .footer-container {
-    width: 351.2px;
+    width: 320px;
     max-width: 100%;
   }
 }
