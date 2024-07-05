@@ -48,8 +48,6 @@
   .blocks {
     min-width: 375px;
     max-width: 1200px;
-    overflow-x: scroll;
-    overflow: scroll;
     max-height: 400px;
   }
   .block {
@@ -118,7 +116,7 @@
 }
 @media screen and (max-width: 376px) {
   .item-container {
-    width: 351.5px;
+    width: 320px;
     max-width: 100%;
   }
   .blocks {
