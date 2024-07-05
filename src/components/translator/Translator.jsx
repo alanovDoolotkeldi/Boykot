@@ -5,7 +5,6 @@ function Translator() {
     <div className='translator-info'>
         <p>RU</p>
         <p>EN</p>
-      
     </div>
   )
 }

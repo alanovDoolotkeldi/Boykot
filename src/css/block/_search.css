@@ -1,5 +1,4 @@
 .form{
-    padding-left: 16px;
 }
 .form>input{
     width: 220px;
@@ -22,6 +21,8 @@
 .form>input:hover{
     background-color: white;
     color: #5e4c34;
+    transition-duration: 1s;
+    /* cursor: pointer; */
 }
 .form>input:hover::placeholder{
     color: #5e4c34;

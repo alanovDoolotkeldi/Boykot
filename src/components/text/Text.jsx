@@ -5,7 +5,7 @@ function Text() {
     <div className='text-container'>
       <h1>
 
-      ALMAZSAN ÖLMEZSİN, ALIRSAN <span>ÖLÜRLER !!!</span>
+      АЛБАСАҢ ӨЛБӨЙСҮҢ, АЛСАҢ <span>ӨЛҮШӨТ !!!</span>
       </h1>
     </div>
   )

@@ -1,36 +1,38 @@
 @media screen and (max-width:1024px) {
-    .header-container{
+    .product-container{
         width: 936px;
         max-width: 100%;
+        margin: 0 auto;
+    
     }
+
     
 }
 @media screen and (max-width:993px) {
-    .header-container{
-        width: 936px;
-        max-width: 100%;
-    }
-    
+
 }
 @media screen and (max-width:769px) {
-    .header-container{
+    .product-container{
         width: 696px;
         max-width: 100%;
+    
     }
+
     
 }
 @media screen and (max-width:426px) {
-    .header-container{
+    .product-container{
         width: 401.6px;
         max-width: 100%;
+    
     }
     
 }
 @media screen and (max-width:376px) {
-    .header-container{
-        width: 351.5px;
+    .product-container{
+        width: 351.2px;
         max-width: 100%;
-
+    
     }
     
 }

@@ -1,18 +1,27 @@
-.translator-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* border: 1px solid white; */
-    color: white;
-    gap: 15px
+.translator-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  color: white;
+  gap: 15px;
 }
-.translator-info>p{
-    margin: 0;
-    font-size: 25px;
-    font-family:'Ubuntu', sans-serif;
+.translator-info > p {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(255, 255, 255,0);
+  
 }
-.translator-info>p:hover{
-    cursor: pointer;
-    background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important;
+.translator-info > p:hover {
+  cursor: pointer;
+  background-color:rgb(255, 255, 255,0.1);
+  /* background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important; */
 }

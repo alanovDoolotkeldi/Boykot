@@ -1,0 +1,25 @@
+@media screen and (max-width:1024px) {
+
+    
+}
+@media screen and (max-width:993px) {
+
+}
+@media screen and (max-width:769px) {
+
+    
+}
+@media screen and (max-width:425px) {
+    
+}
+@media screen and (max-width:376px) {
+    .used-texts>h1{
+        font-size: 22px;
+    }
+    .used-texts>p{
+        flex-wrap: wrap;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}

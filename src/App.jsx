@@ -1,17 +1,23 @@
-import { Outlet } from "react-router-dom"
-import Navbar from "./components/navbar/Navbar"
-import Footer from "./components/footer/Footer"
+import { Outlet, useLocation } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
+import { useEffect, useState } from "react";
 function App() {
+  const location = useLocation();
+  const [isIF, setIsIf] = useState(false);
 
+  console.log(location);
+  useEffect(() => {
+    const islocation = location.pathname === "/";
+    setIsIf(islocation);
+  }, [location.pathname]);
   return (
     <>
-    
-    <Navbar/>
-    <Outlet/>
-    <Footer/>
-
+      <div className={`${isIF ? "body" : "no_body"}`}>
+        <Outlet />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

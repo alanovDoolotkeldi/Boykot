@@ -1,0 +1,143 @@
+@media screen and (max-width:1024px) {
+    .item-container{
+        width: 936px;
+        max-width: 100%;
+    }
+
+    
+}
+@media screen and (max-width:993px) {
+    .item-container{
+        width: 936px;
+        max-width: 100%;
+    }
+
+}
+@media screen and (max-width:769px) {
+    .item-container{
+        width: 696px;
+        max-width: 100%;
+    }
+    .block{
+        
+    }
+    .block-info{
+        width: 450px;
+    }
+    .block-text{
+        width: 220px;
+        max-width: 100%;
+
+    }
+    .block-category{
+        width: 150px;
+        max-width: 100%;
+
+    }
+    .block-button{
+        justify-content: space-between;
+    }
+    .block-button>h2{
+        /* font-size: 16px; */
+        width: 80px;
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 19px;
+    }
+
+    
+}
+@media screen and (max-width:426px) {
+    .item-container{
+        width: 401.6px;
+        max-width: 100%;
+    }
+    .blocks{
+        min-width: 401px;
+        max-width: 1200px;
+        overflow-x: scroll;
+       
+        
+        
+    }
+    .block{
+        width: 510px;
+        height: 68.4px;
+    }
+    .block-info{
+        width: 460px;
+        gap: 15px;
+    }
+    .block-text{
+        width: 172.46px;
+        max-width: 100%;
+
+    }
+    .block-category{
+        width: 103.88px;
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+
+    }
+    .block-content{
+        width: 178,88px;
+        gap: 15px;
+    }
+    .block-button{
+        width: 190px;
+        justify-content: space-between;
+        /* gap: 50px; */
+        gap: 10px;
+    }
+    .block-button>h2{
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        /* font-size: 16px; */
+        /* width: 20px; */
+        flex-wrap: wrap;
+        text-align: center;
+        line-height: 19px;
+    }
+    .block-button>h3{
+        width: 86.11px;
+        text-align: center;
+        word-wrap: break-word;
+        /* margin-top: -10px; */
+        line-height: 14px;
+        font-size: 14px;
+
+    }
+    .block-button>.button{
+        width: 80px;
+        height: 40px;
+        /* margin-left: 5px; */
+        font-size: 16px;
+    }
+
+    .block-logo>h1{
+        width: 60px;
+        display: flex;
+        justify-content: center;
+      
+
+    }
+
+    .block-button>button{
+        width: 86.11px;
+        height: 51.6px;
+    }
+
+}
+@media screen and (max-width:376px) {
+    .item-container{
+        
+        width: 351.5px;
+        max-width: 100%;
+    }
+    .blocks{
+        
+        min-width: 351.5px;
+    }
+}

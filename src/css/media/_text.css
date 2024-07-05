@@ -1,0 +1,49 @@
+@media screen and (max-width:1024px) {
+    .text-container{
+        width: 750px;
+    }
+
+    
+}
+@media screen and (max-width:993px) {
+
+}
+@media screen and (max-width:769px) {
+    .text-container{
+        width: 600px;
+    }
+    .text-container>h1{
+        font-size: 22px;
+    }
+
+    
+}
+@media screen and (max-width:426px) {
+    .text-container{
+        width: 300px;
+    }
+    .text-container>h1{
+        width: 431.6px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 25px;
+   
+    }
+    .text-container>h1>span{
+      
+
+       
+    }
+
+    
+}
+@media screen and (max-width:376px) {
+    .text-container{
+        width: 260px;
+
+    }
+    .text-container>h1{
+        animation-duration: 20s;
+    }
+    
+}
