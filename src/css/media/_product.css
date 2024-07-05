@@ -40,14 +40,12 @@
     .product-page{
         width: 375px;
         max-width: 100%;
-        border: 1px solid red;
     
     }
     .product-blocks{
         gap: 20px;
     }
     .product-block{
-        border: 2px solid red;
     }
     .product-page-text{
         width: 215.69px;

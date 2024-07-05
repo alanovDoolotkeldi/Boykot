@@ -15,7 +15,7 @@ body{
   
     
 }
-body{
+.body{
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -31,9 +31,8 @@ body{
     padding: 0;
     width: 100%;
     max-width: 100%;
-    height: 100vh;
-    max-height: 100vh;
-    min-height: 100vh;
+    height: auto;
+
     background-image: url("https://boykotyolu.com.tr/assets/back3.png");
     /* background-position: center; */
     background-size: cover;
