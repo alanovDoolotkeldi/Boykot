@@ -6,7 +6,7 @@ import Navbar from '../../components/navbar/Navbar'
 
 function HomePage() {
   return (
-    <div >
+    <div className='body'>
          <Navbar/>
         <SearchProduct/>
         <Item/>
