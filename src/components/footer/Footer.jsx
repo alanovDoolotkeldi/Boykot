@@ -1,11 +1,13 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 function Footer() {
+  const {t} = useTranslation()
   return (
     <footer>
        <div className="container footer-container">
-        <p>Алсырабагыла жана кайгырбагыла, эгер момун болсонор силер албетте (каапырлардан) Устом болосунар</p>
-        <h1>Аль-Имран : 139</h1>
+        <p>{t("text")}</p>
+        <h1>{t("al")} : 139</h1>
 
        </div>
       
