@@ -68,7 +68,17 @@ ul{
 a{
     text-decoration: none;
 }
-
+.icon{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+.button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
 @media screen and (max-width:426px) {
     .body{
         height: auto;

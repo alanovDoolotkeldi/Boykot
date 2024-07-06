@@ -51,7 +51,7 @@ function Item() {
                   </div>
                   <div className="block-button">
                     <button className='button'>why</button>
-                    <button>Alnetifi gor </button>
+                    <button className='button-2'>Alnetifi gor <i class="fa fa-eye" aria-hidden="true"></i> </button>
                   </div>
                 </div>
 
