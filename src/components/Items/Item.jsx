@@ -6,7 +6,7 @@ function Item() {
     <section>
         <div className="container item-container">
           <div className="blocks">
-            <div className="block">
+            <div className="block block-2">
                 <div className="block-text">
                   <h1>Marka</h1>
                 </div>
