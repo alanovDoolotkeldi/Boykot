@@ -47,6 +47,90 @@ export const data = [
     img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
     boycott: true,
   },
+  {
+    id: 8,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 9,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 10,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 11,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 12,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 13,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 14,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 15,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 16,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 17,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 18,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 19,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 20,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
+  {
+    id: 21,
+    marka: "Activia (Danone)",
+    img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
+    boycott: true,
+  },
 ];
 
 

@@ -152,12 +152,11 @@
     background-color: #212529;
     border: none;
     border-radius: 4px;
-    opacity: 0.6;
 
 }
 .block-button>.button{
     width: 80px;
-    opacity: 1;
+    /* opacity: 1; */
     background-color: #DEB887
 
     ;
@@ -183,4 +182,12 @@
     text-align: center;
     border-collapse: collapse;
     font-weight: 600;
+}
+.button-true{
+    opacity: 1;
+    cursor: pointer;
+}
+.button-false{
+    opacity: 0.6;
+    cursor:no-drop;
 }

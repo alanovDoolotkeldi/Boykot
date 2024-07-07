@@ -1,8 +1,21 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect, useState } from "react";
+import { Link, useParams } from "react-router-dom";
+import { data } from "../../data";
 
 function ProductPage() {
-    const [data , setData] = useState([1,2,3,4])
+  const [item , setItem] = useState({})
+  console.log(item)
+  
+  const {id} = useParams()
+
+    const [dataa , setData] = useState([1,2,3,4])
+
+    useEffect(()=>{
+      const isData = data.filter(x=>x.id==id)
+      setItem(isData[0])
+
+
+    },[id])
   return (
     <div className="product-page">
       <div className="container product-content-container">
@@ -11,12 +24,12 @@ function ProductPage() {
         </div>
         <div className="product-content-image">
           <img
-            src="https://boykotyolu.com.tr/markalar/658ec3b6eae0f.png"
+            src={item.img}
             alt=""
           />
           <div className="product-content-image-text">
             {/* <div className="product-content-image-text-p"> */}
-            <p>Aligar</p>
+            <p>{item.marka}</p>
             {/* </div> */}
           </div>
         </div>
@@ -38,7 +51,7 @@ function ProductPage() {
         <div className="product-blocks">
             {/* <div className="product-block-container"> */}
             {
-                data.map((el)=>(
+                dataa.map((el)=>(
                     <>
                               <div className="product-block">
             <div className="product-block-image">
