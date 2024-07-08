@@ -1,4 +1,4 @@
-import { Outlet, useLocation } from "react-router-dom";
+import { Outlet, Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import { useEffect, useState } from "react";
@@ -14,7 +14,9 @@ function App() {
   return (
     <>
       <div className={`${isIF ? "body" : "no_body"}`}>
+
         <Outlet />
+
       </div>
     </>
   );
