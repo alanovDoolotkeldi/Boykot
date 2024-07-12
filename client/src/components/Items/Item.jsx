@@ -8,7 +8,6 @@ function Item() {
   const popupRefs = useRef({});
   const navigate = useNavigate();
   const [state, setState] = useState({});
-  console.log(state);
 
   function handleClick(id) {
     setState((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -78,35 +77,42 @@ function Item() {
                 </div>
                 <div className="block-button">
                   <button
-                    onClick={() => handleClick(el.id)}
+                    onClick={() => navigate(`texts/${el.id}`)}
                     className={`button ${
                       el.boycott ? "button-true" : "button-false"
                     }`}
                   >
-                    why <IoIosArrowUp className="fa-up" />
-                    <div
+                    why 
+                    {/* <FaAngleDown className="fa-up" /> */}
+                    {/* <div
                       ref={(element) => (popupRefs.current[el.id] = element)}
                       className={`why ${el.boycott && state[el.id] ? "why-flex" : "why-none"}`}
+                      onClick={(e) => e.stopPropagation()}
                     >
-                      <FaAngleDown className="fa-down" />
+                      <IoIosArrowUp onClick={() => handleClick(el.id)} className="fa-down" />
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Iure laudantium temporibus, possimus qui enim quidem
                         dolorum repellendus amet ipsam ea hic cupiditate,
                         laboriosam consequuntur mollitia nisi labore porro quos
-                        cum?
+                        cum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, velit! Doloremque similique, sint omnis voluptatem itaque iure quas eos velit culpa hic saepe consectetur, temporibus, corrupti sed! Placeat, ipsa unde?
+                        Quam distinctio voluptatum officia modi reiciendis itaque vero dicta, dignissimos animi incidunt sequi sunt voluptate optio rem? Ullam, sapiente? Facere perferendis quasi asperiores magnam sapiente error pariatur commodi possimus praesentium.
+                        Quos voluptate velit animi eaque aperiam odio. Suscipit culpa odio id numquam laudantium ducimus amet dolores, minus enim? Vitae vero tenetur doloremque necessitatibus! Quidem laborum, placeat hic earum inventore unde!
                       </p>
-                    </div>
+                    </div> */}
                   </button>
                   <button
-                    onClick={() =>
-                      navigate(el.boycott && `/products/${el.id}`)
-                    }
+                    onClick={(event) => {
+                      event.preventDefault();
+                      if (el.boycott) {
+                        navigate(`/products/${el.id}`);
+                      }
+                    }}
                     className={`button-2 ${
                       el.boycott ? "button-true" : "button-false"
                     }`}
                   >
-                    Alnetifi gor <i className="fa fa-eye" aria-hidden="true"></i>{" "}
+                    Alnetifi gor <i className="fa fa-eye"></i>
                   </button>
                 </div>
               </div>
