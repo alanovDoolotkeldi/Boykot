@@ -13,7 +13,7 @@ function App() {
   }, [location.pathname]);
   return (
     <>
-      <div className={`${isIF ? "body" : "no_body"}`}>
+      <div >
 
         <Outlet />
 
