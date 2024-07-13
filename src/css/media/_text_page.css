@@ -43,6 +43,11 @@
         height: 100%;
         object-fit: contain;
     }
+    .text-conent-title{
+        width: 375px;
+        max-width: 100%;
+        margin-top: 10px;
+    }
     .text-content{
         width: 375px;
         max-width: 100%;
