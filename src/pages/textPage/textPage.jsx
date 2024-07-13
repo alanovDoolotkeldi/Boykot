@@ -20,6 +20,9 @@ function TextPage() {
         <div className="text-content">
             <div className="text-conent-title">
                 <h2>Эмне учун Байкот</h2>
+                <div className="navigate-button">
+                  <button>Артка кайтуу</button>
+                </div>
 
             </div>
             <div className="text-content-p">

@@ -8,7 +8,7 @@ function ProductPage() {
   
   const {id} = useParams()
 
-    const [dataa , setData] = useState([1,2,3,4])
+    const [dataa , setData] = useState([1,2,3,4,5,6,7,8])
 
     useEffect(()=>{
       const isData = data.filter(x=>x.id==id)
@@ -17,7 +17,7 @@ function ProductPage() {
 
     },[id])
   return (
-    <div className="product-page no_body">
+    <div className="product-page no_body_2">
       <div className="container product-content-container">
         <div className="product-page-text">
           <h2>Sorgulanan Marka</h2>
