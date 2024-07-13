@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import { useNavigate, useParams } from "react-router-dom";
 import { data } from "../../data";
+import { useTranslation } from "react-i18next";
 function TextPage() {
+  const {t} = useTranslation()
   const navigate = useNavigate()
   const { id } = useParams();
   const [item, setItem] = useState({});
@@ -20,9 +22,9 @@ function TextPage() {
         </div>
         <div className="text-content">
             <div className="text-conent-title">
-                <h2>Эмне учун Байкот</h2>
+                <h2>{t("why")}</h2>
                 <div className="navigate-button">
-                  <button onClick={()=>navigate("/")}>Артка кайтуу</button>
+                  <button onClick={()=>navigate("/")}>{t("next")}</button>
                 </div>
 
             </div>

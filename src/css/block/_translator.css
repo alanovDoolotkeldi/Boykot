@@ -14,7 +14,7 @@
   font-family: "Ubuntu", sans-serif;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color:rgba(94, 76, 52, 0.7); /* Semi-transparent background */
   color: white;
   padding: 5px;
   appearance: none; /* Remove default dropdown arrow for customization */
@@ -30,6 +30,6 @@
 .translator-info > select option {
   padding-top: 5px;
   
-  background-color: rgba(0, 0, 0, 0.8); /* Option background for better visibility */
+  background-color:rgba(94, 76, 52, 1); /* Option background for better visibility */
   color: white;
 }
