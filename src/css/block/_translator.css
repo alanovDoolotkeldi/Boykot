@@ -1,5 +1,5 @@
 .translator-info {
-  width: 80px; /* Adjusted width for better appearance */
+  width: 100px; /* Adjusted width for better appearance */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,8 @@
 }
 
 .translator-info > select option {
+  padding-top: 5px;
+  
   background-color: rgba(0, 0, 0, 0.8); /* Option background for better visibility */
   color: white;
 }

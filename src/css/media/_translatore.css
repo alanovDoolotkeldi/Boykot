@@ -1,0 +1,16 @@
+@media screen and (max-width:1024px) {
+    
+}
+@media screen and (max-width:992px) {
+    
+}
+@media screen and (max-width:768px) {
+    
+}
+@media screen and (max-width:426px) {
+    
+    .translator-info{
+        width: 80px;
+        
+    }
+}

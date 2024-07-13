@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
 function Translator() {
-  const [languages, setLanguages] = useState(["en", "ru", "kg"]);
+  const {t} = useTranslation()
   const [language, setLanguage] = useState(i18next.language);
 
   function handleChange(event) {
@@ -14,11 +15,10 @@ function Translator() {
   return (
     <div className='translator-info'>
       <select value={language} onChange={handleChange}>
-        {languages.map((el) => (
-          <option key={el} value={el}>
-            {el.toUpperCase()}
-          </option>
-        ))}
+          <option className="option-kg" value="kg">{t("kg")}</option>
+          <option value="ru">{t("ru")}</option>
+          <option value="en">{t("en")}</option>
+        
       </select>
     </div>
   );
