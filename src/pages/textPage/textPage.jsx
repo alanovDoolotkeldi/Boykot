@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { data } from "../../data";
 function TextPage() {
+  const navigate = useNavigate()
   const { id } = useParams();
   const [item, setItem] = useState({});
   useEffect(() => {
@@ -21,7 +22,7 @@ function TextPage() {
             <div className="text-conent-title">
                 <h2>Эмне учун Байкот</h2>
                 <div className="navigate-button">
-                  <button>Артка кайтуу</button>
+                  <button onClick={()=>navigate("/")}>Артка кайтуу</button>
                 </div>
 
             </div>

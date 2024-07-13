@@ -1,11 +1,15 @@
 import { useEffect, useState } from "react"
-import i18next from "../../locales/i18next"
+import i18next from "i18next"
 function Translator() {
   const [languages, setLanguages] = useState(["en", "ru", "kg"])
   const [language, setLanguage] = useState(i18next.language)
+  console.log(language)
 
   function handleClick(el) {
     i18next.changeLanguage(el)
+    
+
+
   }
 
 

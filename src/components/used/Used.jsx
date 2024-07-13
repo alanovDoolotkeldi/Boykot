@@ -19,7 +19,6 @@ function Used() {
         setReset(true);
       }
     };
- 
     if (!reset) {
       increment();
     } else {
