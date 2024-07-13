@@ -72,12 +72,12 @@ function Item() {
                     <img src={el.img} alt="" />
                   </div>
                   <div className="block-category">
-                    <h2>Uygun</h2>
+                    <h2 className={el.boycott?"boykotlu":"uygun"}>{el.boycott?"Boykotlu":"Uygun"}</h2>
                   </div>
                 </div>
                 <div className="block-button">
                   <button
-                    onClick={() => navigate(`texts/${el.id}`)}
+                    onClick={() => navigate(el.boycott&&`texts/${el.id}`)}
                     className={`button ${
                       el.boycott ? "button-true" : "button-false"
                     }`}

@@ -126,17 +126,19 @@
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    padding: 0 10px;
+    
     font-size: 16px;
     font-weight: 700;
-    background-color: rgba(25, 135, 84, 1);
     text-shadow: 5px 5px 20px black;
   }
-  
-  .block-category > h2:nth-child(2) {
-    background-color: red;
+  .uygun{    
+    background-color: rgba(25, 135, 84, 1);    
+    padding: 0 10px;
   }
-  
+  .boykotlu{
+    background-color: red;
+    padding: 0 10px;
+  }
   .block-button {
     width: 301.81px;
     max-width: 100%;
@@ -243,4 +245,4 @@
       opacity: 0;
       transition: 0.4s;
     }
-  
+
