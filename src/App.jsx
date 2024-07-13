@@ -6,7 +6,6 @@ function App() {
   const location = useLocation();
   const [isIF, setIsIf] = useState(false);
 
-  console.log(location);
   useEffect(() => {
     const islocation = location.pathname === "/";
     setIsIf(islocation);

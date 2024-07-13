@@ -1,26 +1,27 @@
-import { useEffect, useState } from "react"
-import i18next from "i18next"
+import { useEffect, useState } from "react";
+import i18next from "i18next";
+
 function Translator() {
-  const [languages, setLanguages] = useState(["en", "ru", "kg"])
-  const [language, setLanguage] = useState(i18next.language)
-  console.log(language)
+  const [languages, setLanguages] = useState(["en", "ru", "kg"]);
+  const [language, setLanguage] = useState(i18next.language);
 
-  function handleClick(el) {
-    i18next.changeLanguage(el)
-    
-
-
+  function handleChange(event) {
+    const newLanguage = event.target.value;
+    i18next.changeLanguage(newLanguage);
+    setLanguage(newLanguage);
   }
-
-
 
   return (
     <div className='translator-info'>
-      {languages.map((el) => (
-        <p key={el} onClick={()=>handleClick(el)}>{el.toUpperCase()}</p>
-      ))}
+      <select value={language} onChange={handleChange}>
+        {languages.map((el) => (
+          <option key={el} value={el}>
+            {el.toUpperCase()}
+          </option>
+        ))}
+      </select>
     </div>
-  )
+  );
 }
 
-export default Translator
+export default Translator;

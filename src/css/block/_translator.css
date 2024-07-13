@@ -1,30 +1,33 @@
 .translator-info {
-  width: 75px;
-  flex-wrap: wrap;
+  width: 80px; /* Adjusted width for better appearance */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* justify-content: space-between; */
-
+  gap: 10px; /* Adjusted gap for better spacing */
   color: white;
-  gap: 15px;
 }
-.translator-info > p {
-  width: 30px;
-  height: 30px;
-  margin: 0;
+
+.translator-info > select {
+  width: 100%; /* Ensure the dropdown fits the container */
+  height: 40px; /* Increased height for better usability */
   font-size: 16px;
   font-family: "Ubuntu", sans-serif;
   border: 1px solid white;
   border-radius: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:rgb(255, 255, 255,0);
-  
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  padding: 5px;
+  appearance: none; /* Remove default dropdown arrow for customization */
+  text-align: center;
 }
-.translator-info > p:hover {
-  cursor: pointer;
-  background-color:rgb(255, 255, 255,0.1);
-  /* background-color: RGBA(220, 53, 69, var(--bs-bg-opacity, 1)) !important; */
+
+.translator-info > select:focus {
+  outline: none;
+  border-color: #6e8efb; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(110, 142, 251, 0.5); /* Add shadow on focus */
+}
+
+.translator-info > select option {
+  background-color: rgba(0, 0, 0, 0.8); /* Option background for better visibility */
+  color: white;
 }
