@@ -130,6 +130,14 @@ export const data = [
     marka: "Activia (Danone)",
     img: "https://boykotyolu.com.tr/markalar/6591d0a56ba3a.png",
     boycott: true,
+    product:[
+      {
+
+      },
+      {
+        
+      }
+    ]
   },
 ];
 

@@ -1,5 +1,5 @@
 
-  @media screen and (max-width: 501px) {
+  @media screen and (max-width: 570px) {
     .item-container {
       width: 375px;
       max-width: 100%;
@@ -117,7 +117,7 @@
       padding: 0;
     }
   }
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:570px) {
     .product-page{
         width: 375px;
         max-width: 100%;
@@ -139,7 +139,7 @@
     }
     
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:570px) {
     .product-container{
         width: 375px;
         max-width: 100%;
@@ -147,7 +147,7 @@
     }
     
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:570px){
     .text-page{
         width: 375px;
         max-width: 100%;
@@ -195,7 +195,7 @@
         left: 90px;
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:570px) {
     .text-container{
         width: 280px;
     }
@@ -214,14 +214,14 @@
 
     
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:570px) {
     
     .translator-info{
         width: 90px;
         
     }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:570px) {
     .used-texts>h1{
         font-size: 22px;
     }
@@ -232,19 +232,19 @@
     }
     
 }
-@media screen and (max-width: 501px) {
+@media screen and (max-width: 571px) {
     .header-container {
       width: 375px;
       max-width: 100%;
     }
   }
-  @media screen and (max-width: 501px) {
+  @media screen and (max-width: 571px) {
     .footer-container {
       width: 375px;
       max-width: 100%;
     }
   }
-  @media screen and (max-width:501px) {
+  @media screen and (max-width:571px) {
     .body{
         height: auto;
         max-height: auto;

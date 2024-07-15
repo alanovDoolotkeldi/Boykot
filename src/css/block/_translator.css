@@ -20,6 +20,9 @@
   appearance: none; /* Remove default dropdown arrow for customization */
   text-align: center;
 }
+.translator-info > select:hover{
+  cursor: pointer;
+}
 
 .translator-info > select:focus {
   outline: none;
@@ -32,4 +35,7 @@
   
   background-color:rgba(94, 76, 52, 1); /* Option background for better visibility */
   color: white;
+}
+.translator-info > select option:hover{
+  cursor: pointer;
 }

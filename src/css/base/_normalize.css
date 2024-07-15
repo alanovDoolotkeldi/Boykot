@@ -83,16 +83,16 @@ a{
 }
 @media screen and (max-width:426px) {
     .body{
-        height: auto;
+        height: 100vh;
         max-height: auto;
         background-position: center;
+        
        
     }
     .no_body{
         /* width: ; */
         height: auto;
         background-position: top;
-        border: 2px solid red;
         /* background-repeat: no-repeat; */
         /* background-size: contain; */
     }
