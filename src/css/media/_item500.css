@@ -1,49 +1,4 @@
-@media screen and (max-width: 1024px) {
-    .item-container {
-      width: 936px;
-      max-width: 100%;
-    }
-  }
-  @media screen and (max-width: 993px) {
-    .item-container {
-      width: 936px;
-      max-width: 100%;
-    }
-  }
-  @media screen and (max-width: 769px) {
-    .item-container {
-      width: 696px;
-      max-width: 100%;
-    }
-    
-    .block {
-    }
-    .block-info {
-      width: 450px;
-    }
-    .block-text {
-      width: 220px;
-      max-width: 100%;
-    }
-    .block-category {
-      width: 150px;
-      max-width: 100%;
-    }
-    .block-button {
-      justify-content: space-between;
-    }
-    .block-button > h2 {
-      /* font-size: 16px; */
-      width: 80px;
-      flex-wrap: wrap;
-      text-align: center;
-      line-height: 19px;
-    }
-    .block-button > button > .why{
-      width: 300px;
-      left: -90px;
-    }
-  }
+
   @media screen and (max-width: 501px) {
     .item-container {
       width: 375px;
@@ -277,15 +232,31 @@
     }
     
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 501px) {
     .header-container {
       width: 375px;
       max-width: 100%;
     }
   }
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 501px) {
     .footer-container {
       width: 375px;
       max-width: 100%;
     }
   }
+  @media screen and (max-width:501px) {
+    .body{
+        height: auto;
+        max-height: auto;
+        background-position: center;
+       
+    }
+    .no_body{
+        /* width: ; */
+        height: auto;
+        background-position: top;
+        /* background-repeat: no-repeat; */
+        /* background-size: contain; */
+    }
+    
+}
