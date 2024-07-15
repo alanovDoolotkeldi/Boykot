@@ -13,7 +13,7 @@ function TextPage() {
     setItem(isData[0]);
   }, [id]);
   return (
-    <div className="no_body_2">
+    <div className="">
       <Navbar />
       <div className="container text-page">
         <div className="text-image">

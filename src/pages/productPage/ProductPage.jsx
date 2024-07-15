@@ -17,7 +17,7 @@ function ProductPage() {
 
     },[id])
   return (
-    <div className="product-page no_body_2">
+    <div className="product-page">
       <div className="container product-content-container">
         <div className="product-page-text">
           <h2>Sorgulanan Marka</h2>
