@@ -84,6 +84,8 @@ a{
 @media screen and (max-width:426px) {
     .body{
         height: auto;
+        max-height: auto;
+        background-position: center;
        
     }
     .no_body{
