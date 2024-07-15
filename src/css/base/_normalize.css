@@ -32,27 +32,11 @@ body{
     width: 100%;
     max-width: 100%;
 
-    height: 100vh;
-
-    background-image: url("https://boykotyolu.com.tr/assets/back3.png");
-    /* background-position: center; */
-    background-size: cover;
-    /* background-clip: border-box; */
-    background-repeat:repeat;
-}
-.no_body_2{
-    
-    width: 100%;
-    max-width: 100%;
-
     height: auto;
 
     background-image: url("https://boykotyolu.com.tr/assets/back3.png");
-    /* background-position: center; */
     background-size: cover;
-    /* background-clip: border-box; */
     background-repeat:repeat;
-    /* height: auto; */
 }
 .container{
     width: 1296px;
