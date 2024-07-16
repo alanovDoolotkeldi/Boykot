@@ -100,7 +100,7 @@ a{
 }
 @media screen and (max-width:426px) {
     .body{
-        height: 100vh;
+        height: auto;
         max-height: auto;
         background-position: center;
 
