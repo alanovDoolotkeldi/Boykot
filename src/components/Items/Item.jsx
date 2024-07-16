@@ -58,7 +58,7 @@ function Item() {
               <div className="block-button">
                 <h2>{t("why1")}</h2>
                 <h3>
-                  Альтернативаны <br /> коруу
+                 {t("alternative")}
                 </h3>
               </div>
             </div>
