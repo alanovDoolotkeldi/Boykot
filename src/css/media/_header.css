@@ -16,6 +16,12 @@
     max-width: 100%;
   }
 }
+@media screen and (max-width: 571px) {
+  .header-container {
+    width: 375px;
+    max-width: 100%;
+  }
+}
 @media screen and (max-width: 426px) {
   .header-container {
     width: 375px;

@@ -36,6 +36,28 @@
     }
     
 }
+@media screen and (max-width:570px) {
+    .product-page{
+        width: 375px;
+        max-width: 100%;
+    
+    }
+    .product-blocks{
+        gap: 20px;
+    }
+    .product-block{
+    }
+    .product-page-text{
+        width: 215.69px;
+        height: 38.03px;
+
+    }
+    .product-page-text>h2{
+        width: 215.69px;
+        font-size: 25.0304px;
+    }
+    
+}
 @media screen and (max-width:426px) {
     .product-page{
         width: 375px;

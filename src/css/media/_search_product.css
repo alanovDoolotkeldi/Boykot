@@ -20,6 +20,23 @@
 
     
 }
+
+@media screen and (max-width:570px) {
+    .product-container{
+        width: 375px;
+        max-width: 100%;
+    
+    }
+    
+}
+@media screen and (max-width:570px) {
+    .product-container{
+        width: 375px;
+        max-width: 100%;
+    
+    }
+    
+}
 @media screen and (max-width:426px) {
     .product-container{
         width: 375px;

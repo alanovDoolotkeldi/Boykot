@@ -9,6 +9,19 @@
 
     
 }
+@media screen and (max-width:570px) {
+    .used-texts>h1{
+        font-size: 22px;
+    }
+    .used-texts>p{
+        flex-wrap: wrap;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+}
+
+
 @media screen and (max-width:426px) {
     .used-texts>h1{
         font-size: 22px;

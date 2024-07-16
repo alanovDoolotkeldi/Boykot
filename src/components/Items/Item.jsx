@@ -3,8 +3,10 @@ import { data } from "../../data";
 import { useNavigate } from "react-router-dom";
 import { FaAngleDown } from "react-icons/fa";
 import { IoIosArrowUp } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 
 function Item() {
+  const {t} = useTranslation()
   const popupRefs = useRef({});
   const navigate = useNavigate();
   const [state, setState] = useState({});
@@ -42,21 +44,21 @@ function Item() {
         <div className="blocks">
           <div className="block block-2">
             <div className="block-text">
-              <h1>Marka</h1>
+              <h1>{t("marka")}</h1>
             </div>
             <div className="block-info">
               <div className="block-content">
                 <div className="block-logo">
-                  <h1>Logo</h1>
+                  <h1>{t("logo")}</h1>
                 </div>
                 <div className="block-category">
-                  <h1>Жагдайы</h1>
+                  <h1>{t("situation")}</h1>
                 </div>
               </div>
               <div className="block-button">
-                <h2>эмне учун</h2>
+                <h2>{t("why1")}</h2>
                 <h3>
-                  Альтарнативаны <br /> коруу
+                  Альтернативаны <br /> коруу
                 </h3>
               </div>
             </div>

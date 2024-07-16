@@ -81,12 +81,29 @@ a{
    
 
 }
+
+@media screen and (max-width:571px) {
+    .body{
+        height: auto;
+        max-height: auto;
+        background-position: center;
+       
+    }
+    .no_body{
+        /* width: ; */
+        height: auto;
+        background-position: top;
+        /* background-repeat: no-repeat; */
+        /* background-size: contain; */
+    }
+    
+}
 @media screen and (max-width:426px) {
     .body{
         height: 100vh;
         max-height: auto;
         background-position: center;
-        
+
        
     }
     .no_body{
