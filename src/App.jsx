@@ -10,11 +10,13 @@ function App() {
     const islocation = location.pathname === "/";
     setIsIf(islocation);
   }, [location.pathname]);
+  
   return (
     <>
-      <div className={`${isIF ? "body" : "no_body"}`}>
+      <div >
 
         <Outlet />
+        {/* <img className="body-image" src="../public/logo.svg" alt="" /> */}
 
       </div>
     </>

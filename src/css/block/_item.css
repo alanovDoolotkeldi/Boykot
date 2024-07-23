@@ -169,6 +169,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
   
   .block-button > h2 {
@@ -198,21 +199,6 @@
   .button-false {
     opacity: 0.6;
     cursor: no-drop;
-  }
-  
-  .block-button > button > .why {
-    position: absolute;
-    top: -200px;
-    left: -130px;
-    width: 400px;
-    border-radius: 8px;
-    background-color: white;
-    z-index: 9999;
-    flex-wrap: wrap;
-    padding: 20px 20px 40px 20px;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.4s, transform 0.4s;
   }
   
   .block-button > button > .why > p {

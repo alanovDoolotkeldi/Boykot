@@ -178,91 +178,119 @@
   .block {
     width: 100%;
     max-width: 100%;
+  display: flex;
+  justify-content: space-between;
   }
   .block-info {
-    width: 300px;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+
   }
   .block-text {
-    width: 75px;
+    width: 70px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 
   }
   .block-text>h1{
-    font-size: 14px;
+    font-size: 12px;
   }
   .block-text>h2{
-    font-size: 14px;
+    width: 100% !important;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
   }
   .block-category {
-    width: 75px;
+    width: 70px;
     display: flex;
     justify-content: center;
     max-width: 100%;
+    flex-wrap: wrap;
+    font-size: 12px;
+    text-align: center;
+    word-wrap: break-word;
   }
   .block-category>h1{
-    font-size: 14px;
+    font-size: 13px;
   }
   .block-category>h2{
-    font-size: 14px;
+    /* width: 60px; */
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    padding: 4px 4px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    word-wrap: break-word;
   }
   .block-content {
-    width: 150px;
+    width: 140px;
     gap: 0;
+    display: flex;
+    justify-content: space-between;
   }
   .block-button {
-    width: 150px;
+    width: 140px;
     display: flex;
     /* border: 1px solid black; */
     justify-content: space-between;
     /* gap: 50px; */
+    /* justify-content: center; */
   }
   .block-button > h2 {
-    width:75px;
+    width:60px;
     display: flex;
     justify-content: center;
+    align-items: center;
     /* font-size: 16px; */
     /* width: 20px; */
-    font-size: 14px;
+    font-size: 13px;
     flex-wrap: wrap;
     text-align: center;
     line-height: 15px;
   }
   .block-button > h3 {
-    width: 75px;
+    width: 60px;
     text-align: center;
     word-wrap: break-word;
     /* margin-top: -10px; */
    
     line-height: 12px;
-    font-size: 12px;
+    font-size: 10px;
   }
   .block-button > .button {
-    width:65px;
+    width:60px;
     height: 25px;
     margin-left: 5px;
     font-size: 16px;
   }
   .block-button>button{}
   .block-logo{
-    width: 75px;
+    width: 55px;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     background: none;
   }
   .block-logo>img{
     width: 64px;
-    padding: 0 6px;
-    object-fit: contain;
-    background-color: white;
+    /* padding: 0 4px; */
+    object-fit: contain;  
+    padding: 0;
   }
   .block-logo > h1 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .block-button > button {
-    width: 65px;
+    width: 60px;
     height: 45px;
     font-size: 11px;
     display: flex;
@@ -271,14 +299,6 @@
     
   }
   .block-2{
-  }
-  .block-button > button > .why{
-    width: 345px;
-    left: -210px;
-  }
-  .boykotlu{
-    width: 65px;
-    padding: 0;
   }
 }
 @media screen and (max-width: 376px) {
@@ -348,7 +368,7 @@
     font-size: 12px;
     flex-wrap: wrap;
     text-align: center;
-    line-height: 19px;
+    line-height: 15px;
   }
   .block-button > h3 {
     width: 64px;

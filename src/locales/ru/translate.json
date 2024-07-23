@@ -14,5 +14,11 @@
     "marka":"Марка",
     "situation":"Ситуация",
     "why1":"Почему",
-    "alternative":"Посмотреть альтернативу"
+    "alternative":"Посмотреть альтернативу",
+    "search":"Новый запрос",
+    "queried":"Запрашиваемая марка",
+    "uyogun":"подходящий",
+    "boykot":"бойкот",
+    "description":"description"
+    
 }

@@ -1,0 +1,337 @@
+@media screen and (max-width: 1024px) {
+  .block-brand {
+    width: 400px;
+    max-width: 100%;
+  }
+  .block-brand > h1 {
+    font-size: 18px;
+  }
+  .block-brand > h2 {
+    font-size: 18px;
+  }
+  .block-logo > h1 {
+    font-size: 18px;
+  }
+  .block-category > h1 {
+    font-size: 18px;
+  }
+  .block-category > h2 {
+    font-size: 18px;
+  }
+  .block-why > h1 {
+    font-size: 18px;
+  }
+  .block-why > button {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 992px) {
+
+  .block-brand {
+    width: 400px;
+    max-width: 100%;
+  }
+  .block-brand > h1 {
+    font-size: 18px;
+  }
+  .block-brand > h2 {
+    font-size: 18px;
+  }
+  .block-logo > h1 {
+    font-size: 18px;
+  }
+  .block-category > h1 {
+    font-size: 18px;
+  }
+  .block-category > h2 {
+    font-size: 18px;
+  }
+  .block-why > h1 {
+    font-size: 18px;
+  }
+  .block-why > button {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .block-brand {
+    width: 320px;
+    max-width: 100%;
+  }
+  .block-brand > h1 {
+    font-size: 14px;
+  }
+  .block-brand > h2 {
+    font-size: 14px;
+  }
+  .block-logo > h1 {
+    font-size: 14px;
+  }
+  .block-category > h1 {
+    font-size: 16px;
+  }
+  .block-category > h2 {
+    font-size: 14px;
+  }
+  .block-why > h1 {
+    font-size: 14px;
+  }
+  .block-why > button {
+    font-size: 14px;
+  }
+  .block-alternative > h1 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .block-container {
+    max-width: 100%;
+  }
+  .blocks {
+    width: 568px !important;
+    max-width: 100%;
+    height: 400px;
+    max-height: 400px;
+  }
+  .block {
+    width: 100%;
+  }
+  .block:hover {
+  }
+  .block-brand {
+    width: 320px;
+    max-width: 100%;
+  }
+  .block-brand > h1 {
+    font-size: 13px;
+  }
+  .block-brand > h2 {
+    font-size: 13px;
+  }
+  .block-logo > h1 {
+    font-size: 13px;
+  }
+  .block-category > h1 {
+    font-size: 13px;
+  }
+  .block-category > h2 {
+    font-size: 12px;
+  }
+  .block-why > h1 {
+    font-size: 13px;
+    line-height: 14px;
+  }
+  .block-why > button {
+    width: 100%;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .block-alternative {
+    width: 100px;
+  }
+  .block-alternative > h1 {
+    font-size: 13px;
+  }
+  .block-alternative > button {
+    width: 100px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .block-container {
+    width: 568px !important;
+    max-width: 100%;
+  }
+  .blocks {
+    width: 375px !important;
+    margin: 0 auto;
+  }
+  .block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .block:hover {
+  }
+  .block-brand {
+    width: 60px;
+    max-width: none;
+  }
+  .block-brand > h1 {
+    width: 100%;
+    font-size: 13px;
+  }
+  .block-brand > h2 {
+    font-size: 13px;
+    width: 63px;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre-wrap; /* Позволяет переносить строки внутри элемента */
+  }
+  .block-logo {
+    width: 60px;
+  }
+  .block-logo > h1 {
+    font-size: 13px;
+  }
+  .block-logo-image {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .block-logo-image > img {
+    width: 40px;
+  }
+  .block-category {
+    width: 60px;
+  }
+  .block-category > h1 {
+    font-size: 12px;
+  }
+  .block-category > h2 {
+    font-size: 10px;
+  }
+  .block-why {
+    width: 60px;
+  }
+  .block-why > h1 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .block-why > button {
+    width: 57.7px;
+    max-width: 100%;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 4px 4px;
+  }
+  .block-alternative {
+    width: 80px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .block-alternative > h1 {
+    margin: 0;
+    padding: 0;
+    display: block; /* Изменяем на block для переноса текста */
+    width: 100%; /* Ширина заголовка должна быть 100% от контейнера */
+    height: auto !important;
+    font-size: 10px;
+    text-align: center;
+    word-wrap: break-word; /* Перенос слов на новую строку */
+  }
+
+  .block-alternative > button {
+    width: 100px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .block-container {
+    width: 568px !important;
+    max-width: 100%;
+  }
+  .blocks {
+    width: 320px !important;
+    margin: 0 auto;
+  }
+  .block {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .block-brand {
+    width: 60px;
+    max-width: none;
+  }
+  .block-brand > h1 {
+    width: 52px;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre-wrap; /* Позволяет переносить строки внутри элемента */
+    max-width: 60px; /* Ограничиваем максимальную ширину 80px для переноса текста */
+  }
+  .block-brand > h2 {
+    width: 52px;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: pre-wrap; /* Позволяет переносить строки внутри элемента */
+    max-width: 60px; /* Ограничиваем максимальную ширину 80px для переноса текста */
+  }
+  .block-logo {
+    width: 60px;
+  }
+  .block-logo > h1 {
+    font-size: 13px;
+  }
+  .block-logo-image {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  .block-logo-image > img {
+    width: 40px;
+  }
+  .block-category {
+    width: 52.53px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .block-category > h1 {
+    font-size: 12px;
+  }
+  .block-category > h2 {
+    font-size: 10px;
+  }
+  .block-why {
+    width: 60px;
+    height: 100%;
+  }
+  .block-why > h1 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .block-why > button {
+    width: 41.6px;
+    height: 30px;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0;
+  }
+  .block-alternative {
+    width: 60px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    display: flex;
+    justify-content: end;
+    padding: 0;
+  }
+
+  .block-alternative > h1 {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 50.9px;
+    height: auto !important;
+    font-size: 10px;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .block-alternative > button {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    font-size: 9px;
+    margin: 0;
+  }
+}

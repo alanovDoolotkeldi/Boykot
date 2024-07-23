@@ -8,12 +8,17 @@
     "al":"Al-Imran",
     "ru":"russian",
     "kg":"kyrgyz",
-    "why":"Why Boycott",
+    "why":"Why Boycot",
     "next":"To get back",
     "logo":"Logo",
     "marka":"Marka",
     "situation":"Situation",
     "why1":"Why",
-    "alternative":"See the alternative"
+    "alternative":"See the alternative",
+    "search":"New query",
+    "queried":"Queried brand",
+    "uyogun":"suitable",
+    "boykot":"boykot",
+    "description":"description"
     
 }

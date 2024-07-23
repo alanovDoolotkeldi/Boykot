@@ -4,13 +4,13 @@ import Used from '../used/Used'
 
 function SearchProduct() {
   return (
-    <div>
+    <section>
         <div className="container product-container">
             <Search/>
             <Used/>
         </div>
       
-    </div>
+    </section>
   )
 }
 

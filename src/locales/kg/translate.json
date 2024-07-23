@@ -14,5 +14,10 @@
     "marka":"Марка",
     "situation":"Жагдайы",
     "why1":"Эмне учун",
-    "alternative":"Альтернативаны көруу"
+    "alternative":"Альтернативаны көруу",
+    "search":"Жаңы суроо",
+    "queried":"Суралган бренд",
+    "uyogun":"ылайыктуу",
+    "boykot":"бойкот",
+    "description":"description"
 }
