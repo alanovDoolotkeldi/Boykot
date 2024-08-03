@@ -134,7 +134,7 @@
   }
   .block-alternative > button {
     width: 100px;
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -224,8 +224,13 @@
   }
 
   .block-alternative > button {
-    width: 100px;
+    width: 80px;
+    height: auto;
     font-size: 10px;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    word-wrap: break-word; /* Перенос слов на новую строку */
   }
 }
 @media screen and (max-width: 380px) {

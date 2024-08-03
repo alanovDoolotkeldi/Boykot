@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/navbar/Navbar";
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 import i18next from "i18next";
@@ -31,45 +31,36 @@ function TextPage() {
           <div className="text-logo">
             <div className="text-logo-image">
               <img src={item.logo} alt="" />
-            <h1>Coca Cola</h1>
+            <h1>{item.brand}</h1>
             </div>
             <button onClick={() => navigate("/")}>{t("next")}</button>
           </div>
-          <div className="text-phone">
-            <div className="text-phone-info">
-              <div className="text-phone-container">
-                <p>
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст Текстм ТекстТекст Текст м м ТекстТекст Текст
-                </p>
-              </div>
-            </div>
-          </div>
+
           <div className="cause-container">
             <div className="cause-button">
               <button>Себеби</button>
             </div>
             <div className="cause-blocks">
-              {
-                element.map((el)=>(
+    
 <>          <div className="cause-block">
                 <p>
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст Текстм ТекстТекст Текст м м ТекстТекст Текст
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст Текстм ТекстТекст Текст м м ТекстТекст Текст
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст Текстм ТекстТекст Текст м м ТекстТекст Текст
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст Текстм ТекстТекст Текст м м ТекстТекст Текст
-                  Текст Текст Текст Текст Текст Текст Текст м Текст Текст Текст
-                  мТекстмм Текст ТТекстТекст Текст Текст Текст Текст Текст Текст
-                  Текст Текст м Текст Текст Текст мТекстмм Текст{" "}
+                  {item.description}
                 </p>
               </div></>
-                ))
-              }
-    
+
+            </div>
+          </div>
+          <div className="text-phone">
+            <div className="text-phone-info">
+              <div className="text-phone-container">
+                <p>
+                  Маалымат кайдан алынды
+                </p>
+              </div>
+              <a href="https://boykotyolu.com.tr/index.php" target="_blank" className="link-text">
+              https://boykot-ten.vercel.app/texts/5
+
+              </a>
             </div>
           </div>
         </div>

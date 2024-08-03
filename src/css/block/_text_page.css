@@ -1,10 +1,9 @@
-.no-body-2{
-    width: 100%;
-    background: url("https://boykotyolu.com.tr/assets/back42.jpg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.no-body-2 {
+  width: 100%;
+  background: url("https://boykotyolu.com.tr/assets/back42.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .text-button {
   display: flex;
@@ -17,6 +16,7 @@
   border: 1px solid #ffffff;
   border-radius: 5px;
   background: #cec3b65e;
+  background: #ff0000b2;
   border: 1px solid #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 24px;
@@ -24,8 +24,8 @@
   line-height: 30px;
   color: #ffffff;
 }
-.text-button > button:hover{
-    cursor: pointer;
+.text-button > button:hover {
+  cursor: pointer;
 }
 .text-logo {
   display: flex;
@@ -33,15 +33,16 @@
   justify-content: center;
   position: relative;
   margin-top: 25px;
+  gap: 25px;
 }
 .text-logo-image {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 .text-logo-image > img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
 }
@@ -64,11 +65,9 @@
   font-weight: 400;
   line-height: 19.2px;
   color: #ffffff;
-  position: absolute;
-  right: 0;
 }
-.text-logo > button:hover{
-    cursor: pointer;
+.text-logo > button:hover {
+  cursor: pointer;
 }
 .text-phone {
   width: 868px;
@@ -97,48 +96,66 @@
   color: #ffffff;
   margin: 0;
 }
-.cause-container{
-    margin-top: 40px;
-
+.cause-container {
+  margin-top: 40px;
 }
-.cause-button{
-display: flex;
-justify-content: center;
+.cause-button {
+  display: flex;
+  justify-content: center;
 }
-.cause-button>button{
-width: 189px;
-height: 50px;
-border-radius: 5px;
-border: 1px solid #FF0000;
-background: #FFFFFF8A;
-font-family: "Inter", sans-serif;
-font-size: 24px;
-font-weight: 500;
-line-height: 30px;
-color: #FF0000;
-
+.cause-button > button {
+  width: 189px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ff0000;
+  background: #ffffff8a;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ff0000;
 }
-.cause-button>button:hover{
-    cursor: pointer;
+.cause-button > button:hover {
+  cursor: pointer;
 }
-.cause-blocks{
-    width: 1200px;
-    max-width: 100%;
-    margin:0 auto;
-    margin-top: 25px;
+.cause-blocks {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 25px;
 }
-.cause-block{
-    padding: 15px 30px 30px 30px;
-    background: #00000082;
-    border-bottom: 1px solid #DEE2E6;
-    border-radius: 10px;
+.cause-block {
+  padding: 15px 30px 30px 30px;
+  background: #00000082;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 10px;
 }
-.cause-block>p{
-    font-family: Ubuntu;
-font-size: 24px;
-font-weight: 500;
-line-height: 30px;
-font-family: "Ubuntu", sans-serif;
-color: #FFFFFF;
-
+.cause-block > p {
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+}
+.text-phone-info > .link-text {
+  width: 521px;
+  max-width: 100%;
+  /* height: 50px; */
+  padding: 10px 0;
+  /* padding: 50px 20px; */
+  background: #ffffffd1;
+  border: 1px solid #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #0099ff;
+  border-radius: 8px;
 }

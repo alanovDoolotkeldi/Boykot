@@ -3,7 +3,8 @@ import { Link, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import axios from "axios";
 import { useSelector } from "react-redux";
-import { Navbar } from "react-bootstrap";
+import Navbar from "../../components/navbar/Navbar";
+
 
 function ProductPage() {
   const {data} = useSelector((state)=>state.product)

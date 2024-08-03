@@ -1,16 +1,7 @@
 @media screen and (max-width: 1024px) {
-  .no-body-2 {
-  }
-  .text-button {
-  }
+ 
   .text-button > button {
     width: 280px;
-  }
-  .text-button > button:hover {
-  }
-  .text-logo {
-  }
-  .text-logo-image {
   }
   .text-logo-image > img {
     width: 80px;
@@ -22,10 +13,6 @@
   .text-logo > button {
     width: 180px;
   }
-  .text-logo > button:hover {
-  }
-  .text-phone {
-  }
   .text-phone-info {
     padding: 35px 25px;
   }
@@ -34,36 +21,14 @@
   }
   .text-phone-container > p {
     font-size: 22px;
-  }
-  .cause-container {
-  }
-  .cause-button {
-  }
-  .cause-button > button {
-  }
-  .cause-button > button:hover {
-  }
-  .cause-blocks {
-  }
-  .cause-block {
   }
   .cause-block > p {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 992px) {
-  .no-body-2 {
-  }
-  .text-button {
-  }
   .text-button > button {
     width: 280px;
-  }
-  .text-button > button:hover {
-  }
-  .text-logo {
-  }
-  .text-logo-image {
   }
   .text-logo-image > img {
     width: 80px;
@@ -75,10 +40,6 @@
   .text-logo > button {
     width: 180px;
   }
-  .text-logo > button:hover {
-  }
-  .text-phone {
-  }
   .text-phone-info {
     padding: 35px 25px;
   }
@@ -88,27 +49,11 @@
   .text-phone-container > p {
     font-size: 22px;
   }
-  .cause-container {
-  }
-  .cause-button {
-  }
-  .cause-button > button {
-  }
-  .cause-button > button:hover {
-  }
-  .cause-blocks {
-  }
-  .cause-block {
-  }
   .cause-block > p {
     font-size: 22px;
   }
 }
 @media screen and (max-width: 769px) {
-  .no-body-2 {
-  }
-  .text-button {
-  }
   .text-button > button {
     width: 280px;
   }
@@ -116,6 +61,7 @@
   }
   .text-logo {
     flex-direction: column;
+    gap: 0;
   }
   .text-logo-image {
   }
@@ -131,10 +77,6 @@
     position: relative;
     margin-top: 15px;
   }
-  .text-logo > button:hover {
-  }
-  .text-phone {
-  }
   .text-phone-info {
     padding: 35px 25px;
   }
@@ -144,19 +86,10 @@
   .text-phone-container > p {
     font-size: 20px;
   }
-  .cause-container {
-  }
-  .cause-button {
-  }
-  .cause-button > button {
-  }
-  .cause-button > button:hover {
-  }
-  .cause-blocks {
-  }
-  .cause-block {
-  }
   .cause-block > p {
+    font-size: 20px;
+  }
+  .text-phone-info > .link-text{
     font-size: 20px;
   }
 }
@@ -223,10 +156,14 @@
     margin: 0;
     /* line-height: 24px; */
   }
+  .text-phone-info > .link-text{
+    font-size: 16px;
+    padding: 10px 5px;
+    line-height: 18px;
+  }
 }
 @media screen and (max-width: 375px) {
-  .no-body-2 {
-  }
+
   .text-button {
     margin-top: 24px;
   }
@@ -285,8 +222,6 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 19.36px;
-  }
-  .cause-button > button:hover {
   }
   .cause-blocks {
     margin-top: 15px;

@@ -1,7 +1,9 @@
 import  { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useSelector } from 'react-redux';
 
 function Used() {
+  const {count} = useSelector((state)=>state.count)
   // const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
   
   // const [isMin, setIsMin] = useState(getRandomNumber(0, 10));
@@ -33,12 +35,13 @@ function Used() {
 
     // return () => cancelAnimationFrame(animationFrameId);
   // }, [isMin, isMax, reset]);
+  
 
   const { t } = useTranslation();
   
   return (
     <div className='used-texts'>
-      <h1>0</h1>
+      <h1>{count}</h1>
       <p>{t("колдонуучунун саны")}</p>
     </div>
   );
